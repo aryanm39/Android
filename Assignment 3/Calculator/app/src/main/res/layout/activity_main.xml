@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Display -->
+    <EditText
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter values"
+        android:textSize="24sp"
+        android:gravity="end"
+        android:inputType="none"
+        android:focusable="false"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Buttons Grid -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:layout_marginBottom="16dp">
+
+        <!-- Buttons -->
+        <Button android:id="@+id/btn_1" android:text="1" />
+        <Button android:id="@+id/btn_2" android:text="2" />
+        <Button android:id="@+id/btn_3" android:text="3" />
+        <Button android:id="@+id/btn_add" android:text="+" />
+
+        <Button android:id="@+id/btn_4" android:text="4" />
+        <Button android:id="@+id/btn_5" android:text="5" />
+        <Button android:id="@+id/btn_6" android:text="6" />
+        <Button android:id="@+id/btn_sub" android:text="-" />
+
+        <Button android:id="@+id/btn_7" android:text="7" />
+        <Button android:id="@+id/btn_8" android:text="8" />
+        <Button android:id="@+id/btn_9" android:text="9" />
+        <Button android:id="@+id/btn_mul" android:text="*" />
+
+        <Button android:id="@+id/btn_dot" android:text="." />
+        <Button android:id="@+id/btn_0" android:text="0" />
+        <Button android:id="@+id/btn_clear" android:text="C" />
+        <Button android:id="@+id/btn_div" android:text="/" />
+
+    </GridLayout>
+
+    <!-- Equals Button -->
+    <Button
+        android:id="@+id/btn_equal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:backgroundTint="#cccccc"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

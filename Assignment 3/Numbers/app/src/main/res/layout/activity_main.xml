@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Input for Number 1 -->
+    <EditText
+        android:id="@+id/num1_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Number"
+        android:inputType="number"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Input for Number 2 -->
+    <EditText
+        android:id="@+id/num2_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Second Number"
+        android:inputType="number"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Display Output -->
+    <TextView
+        android:id="@+id/result_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result will be displayed here"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="12dp" />
+</LinearLayout>
